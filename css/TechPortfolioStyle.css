@@ -168,6 +168,7 @@ h2 {
 .CAD-slides {
   display: none;
 }
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -348,7 +349,12 @@ h2 {
   z-index: 2;
 }
 
-#stepshaft-image{
+
+.about-me-text{
+  padding-left: 10%;
+}
+
+#stepshaft-image {
   padding-top: 10%;
 }
 
@@ -365,17 +371,20 @@ h2 {
   left: calc(22% - 10px);
   border-radius: 50%;
 }
-#stepshaft-mg{
+
+#stepshaft-mg {
   background-color: #f1f1f1;
   top: calc(2% - 10px);
   left: calc(20% - 10px);
   border-radius: 50%;
 }
-#keychain-mg{
+
+#keychain-mg {
   top: calc(5% - 10px);
   left: calc(20% - 10px);
   border-radius: 50%;
 }
+
 #cactus-arm-left {
   top: calc(28% - 100px);
   left: calc(20% - 100px);
