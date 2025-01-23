@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammer | TMJ3M</title>
+    <link rel="stylesheet" href="css/TechPortfolioStyle.css">
+    <script src="projectPages.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="TMJ3MProjectsMenu.html">TMJ3M</a>
+    </div>
+
+    <div class="navbar-line">
+        <hr />
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <!--hammer -->
+                <img class="display-image" onclick='reset();' src="images/Hammer.jpg" alt="Hammer Picture">
+
+                <img class="popup-image" id="hammer-connection" src="images/HammerConnection.jpg">
+                <img class="magnifying-glass" id="hammer-connection-mg" onclick='openPopupImg("hammer-connection");
+                    resetText();
+                    openText("hammer-head-mill-tap-text")
+                    openText("hammer-handle-threads-text")' src="images/MagnifyingGlass.svg">
+
+                <hr />
+
+                <!--hammer head-->
+                <img class="display-image" onclick='reset();' src="images/HammerHead.jpg" alt="Hammer Head Picture">
+
+                <img class="popup-image" id="hammer-head-edge" src="images/HammerHeadEdge.jpg">
+                <img class="magnifying-glass" id="hammer-head-edge-mg" onclick='openPopupImg("hammer-head-edge"); 
+                    resetText();
+                    openText("hammer-head-material-text"); 
+                    openText("hammer-head-chamfer-text"); 
+                    openText("hammer-head-edge-text")' src="images/MagnifyingGlass.svg">
+
+                <img class="popup-image" id="hammer-head-chamfer" src="images/HammerHeadChamfer.jpg">
+                <img class="magnifying-glass" id="hammer-head-chamfer-mg" onclick='openPopupImg("hammer-head-chamfer"); 
+                    resetText();
+                    openText("hammer-head-material-text"); 
+                    openText("hammer-head-edge-text"); 
+                    openText("hammer-head-chamfer-text")' src="images/MagnifyingGlass.svg">
+                <img class="magnifying-glass" id="hammer-head-tap-mg" onclick='
+                
+                resetText();
+                openText("hammer-head-material-text"); 
+                    
+                    openText("hammer-head-mill-tap-text"); 
+                    openText("hammer-head-chamfer-text")' src="images/MagnifyingText.png">
+
+                <hr />
+                <img class="display-image" onclick='reset();' src="images/HammerHandle.jpg">
+
+                <img class="popup-image" id="hammer-handle-threads" src="images/HammerHandleThreads.jpg">
+                <img class="magnifying-glass" id="hammer-handle-threads-mg" onclick='openPopupImg("hammer-handle-threads"); 
+                    resetText();                    
+                    openText("hammer-handle-threads-text");
+                    openText("hammer-handle-shoulder-text"); 
+                    openText("hammer-handle-chamfer-text"); 
+                    openText("hammer-handle-material-text");' src="images/MagnifyingGlass.svg">
+
+                <img class="popup-image" id="hammer-handle-shoulder" src="images/HammerHandleSquareShoulder.jpg">
+                <img class="magnifying-glass" id="hammer-handle-shoulder-mg" onclick='openPopupImg("hammer-handle-shoulder"); 
+                    resetText();
+                    openText("hammer-handle-threads-text");
+                    openText("hammer-handle-shoulder-text");
+                    openText("hammer-handle-chamfer-text"); 
+                    openText("hammer-handle-space-text"); 
+                    openText("hammer-handle-material-text");' src="images/MagnifyingGlass.svg">
+
+                <img class="popup-image" id="hammer-handle-space" src="images/HammerHandleSpace.jpg">
+                <img class="magnifying-glass" id="hammer-handle-space-mg" onclick='openPopupImg("hammer-handle-space"); 
+                    resetText();
+                    openText("hammer-handle-shoulder-text");
+                    openText("hammer-handle-chamfer-text");
+                    openText("hammer-handle-space-text");
+                    openText("hammer-handle-taper-text");
+                    openText("hammer-handle-material-text");' src="images/MagnifyingGlass.svg">
+
+                <img class="popup-image" id="hammer-handle-groove" src="images/HammerHandleGroove.jpg">
+                <img class="magnifying-glass" id="hammer-handle-groove-mg" onclick='openPopupImg("hammer-handle-groove"); 
+                    resetText();
+                    openText("hammer-handle-groove-text");
+                    openText("hammer-handle-chamfer-text");
+                    openText("hammer-handle-knurling-text");
+                    openText("hammer-handle-taper-text");
+                    openText("hammer-handle-material-text");' src="images/MagnifyingGlass.svg">
+
+                <img class="popup-image" id="hammer-handle-chamfer" src="images/HammerHandleChamfer.jpg">
+                <img class="magnifying-glass" id="hammer-handle-chamfer-mg" onclick='openPopupImg("hammer-handle-chamfer"); 
+                    resetText();
+                    openText("hammer-handle-chamfer-text");
+                    openText("hammer-handle-knurling-text");
+                    openText("hammer-handle-material-text");' src="images/MagnifyingGlass.svg">
+
+                <hr />
+                <img class="display-image" onclick='reset();' src="images/HammerDrawing.jpg">
+            </div>
+        </div>
+        <div class="column">
+            <div class="description">
+                <h2>Machinist's Hammer</h2>
+
+                <div class="show-text-container show-all-text">
+                    <div class="show-text-centered">
+                        <button class="show-text" onclick="openAllText();">
+                            <img class="show-text-mg" src="C:\projects\Tech Portfolio\images\MagnifyingText.png">
+                            Show all text
+                        </button>
+                    </div>
+                </div>
+
+
+                <!--heammer head text-->
+                <p class="description-text" id="hammer-head-material-text">
+                    <b>Hammer Head: Material Preparation</b><br>
+                    &emsp;&#10146; Steel hex shaft cut to 3 <sup>1</sup>&frasl;<sub>4</sub>"<br>
+                    &emsp;&#10146; The ends were faced off at 315 rpm using the cutting tool.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-head-edge-text">
+                    <b>Hammer Head: Diameter</b><br>
+                    &emsp;&#10146; Both ends had their diameter turned down to 600 thou using the cutting tool. The
+                    turned down diameter is <sup>1</sup>&frasl;<sub>2</sub>" in length.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-head-chamfer-text">
+                    <b>Hammer Head: Chamfer</b><br>
+                    &emsp;&#10146; Using the chamfering tool two chamfers were cut into the ends.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-head-mill-tap-text">
+                    <b>Hammer Head: Milling the Hole</b><br>
+                    &emsp;&#10146; Clamped the hammer head perpendicular into the clamp on the mill. <br>
+                    &emsp;&#10146; Drill straght down, slowly and not all at once, periodically applying oil. <br>
+                    <i>Comments:</i> My hole was not very straight since I didn't clamp the hammer head perfectly
+                    perpendicular the drill.
+                    <br><br><br>
+                    <b>Hammer Head: Tapping the Hole</b>
+                    &emsp;&#10146; Clamped the hammer head with paper towel or regular paper around it (to prevent the
+                    clamp from leaving marks). <br>
+                    &emsp;&#10146; Add the tapping oil. <br>
+                    &emsp;&#10146; Start turning the tap into the hole, for the first couple turns watch carefully to
+                    ensure that the tap is perpendicular to the hammer head. <br>
+                    <i>Comments:</i> My hammer head soesn't sit square on my hammer handle on the y-axis and it's likely
+                    because I the tap wasn't quite square while I tapped my hammer head.
+                    <br>
+                </p>
+
+                <p class="description-text" id="hammer-head-sanding-text">
+                    <b>Hammer Head: Sanding</b><br>
+                    &emsp;&#10146; Sanded the edges of the hammer head.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+
+                <!--heammer handle text-->
+                <p class="description-text" id="hammer-handle-material-text">
+                    <b>Hammer Handle: Material Preparation</b><br>
+                    &emsp;&#10146; Aluminum &#8960; <sup>3</sup>&frasl;<sub>4</sub>" cut to
+                    8 <sup>3</sup>&frasl;<sub>4</sub>"<br>
+                    &emsp;&#10146; The ends were faced off at 500 rpm using the cutting tool.<br>
+                    &emsp;&#10146; Both ends were center drilled.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-space-text">
+                    <b>Hammer Handle: Diameter</b><br>
+                    &emsp;&#10146; One end had a 1" long section's diameter turned down to 400 thou<br>
+                    &emsp;&#10146; Another <sup>1</sup>&frasl;<sub>2</sub>" was further turned down to 375 thou<br>
+                    &emsp;&#10146; Both ends were center drilled.<br>
+                    <i>Comments:</i> I messed up during this step as near the end while the lathe was still slowing
+                    down, I moved the tool away back leading to a sinusoidal looking pattern on that section.
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-taper-text">
+                    <b>Hammer Handle: Taper</b><br>
+                    &emsp;&#10146; The cutting tool was set to 3&deg;.<br>
+                    &emsp;&#10146; Then, the tool was manually moved until it the hammer handle had a nice taper that
+                    ended at 400 thou.<br>
+                    <i>Comments:</i> It feels like the finish wasn't as nice as it could have been, since I could have
+                    gone slower while I was doing the final layer.
+                    <br><br><br>
+                    <b>Hammer Handle: Diameter(2)</b><br>
+                    &emsp;&#10146; Using the cutting tool, the diameter of the main hammer was turned down to 720
+                    thou.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-shoulder-text">
+                    <b>Hammer Handle: Square Shoulder</b><br>
+                    &emsp;&#10146; The grooving tool was used to cut a square shoulder <sup>1</sup>&frasl;<sub>2</sub>"
+                    in with the resulting radius being 280 thou.<br>
+                    &emsp;&#10146; 130 RPM<br>
+                    &emsp;&#10146; Oil was periodically applied.<br>
+                    <i>Comments:</i> I don't think I managed to get the grooving tool square, this was before I knew the
+                    trick of bringing the tool against the chuck to make sure that it's perpendicular.
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-chamfer-text">
+                    <b>Hammer Handle: Square Shoulder</b><br>
+                    &emsp;&#10146; The chamfering tool was used in a couple of places (both ends and on the side of the
+                    shoulder next to the ends) to set them to an angle.<br>
+                    <i>Comments:</i>
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-threads-text">
+                    <b>Hammer Handle: Threading on Lathe</b><br>
+                    &emsp;&#10146; <br>
+                    <i>Comments:</i> I feel that this was the most stressful part since if the threads were messed up a
+                    good chunck of the previous steps had to be re-done and it was as easy to mess-up as missing a
+                    number once and crossthreading.
+                    <br><br><br>
+                    <b>Hammer Handle: Threading with Die</b><br>
+                    &emsp;&#10146; To finish the threads a die was pressed onto the threads<br>
+                    <i>Comments:</i> I remember having to turn the die again outside the lathe since it wasn't quite
+                    done when I first took the die off.
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-knurling-text">
+                    <b>Hammer Handle: Knurling</b><br>
+                    &emsp;&#10146; Knurling tool was set up so that both the top and bottom of the wheel was
+                    touching the hammer handle.<br>
+                    &emsp;&#10146; 205 RPM <br>
+                    &emsp;&#10146; Oil was periodically applied.<br>
+                    &emsp;&#10146; When the knurling tool got to one end the gears were reversed so the tool would
+                    traverse backwards to the other end and so on and so forth; this was done so that the knurling
+                    tool didn't stop touching the hammer handle.<br>
+                    <i>Comments:</i> I went a bit to far, causing the wide end of the taper to also have knurling.
+                    <br>
+                </p>
+                <p class="description-text" id="hammer-handle-groove-text">
+                    <b>Hammer Handle: Groove</b><br>
+                    &emsp;&#10146; The chamfering tool was used to cut a groove betwwen the kurling and the taper
+                    mostly for aesthetic reasons.<br>
+                    <i>Comments:</i> Since the knurling crept up onto the taper, the groove also wasn't perfectly
+                    between the taper and the turned down diameter.
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>&copy2025 Zixiu Chen</p>
+    </div>
+</body>
+
+</html>

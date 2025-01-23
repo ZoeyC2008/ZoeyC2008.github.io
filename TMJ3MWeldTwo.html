@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Cactus | TMJ3M</title>
+    <link rel="stylesheet" href="css\TechPortfolioStyle.css">
+    <script src="projectPages.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="TMJ3MProjectsMenu.html">TMJ3M</a>
+    </div>
+    <div class="navbar-line">
+        <hr />
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <img class="display-image" onclick="openAllText();"
+                    src="images\WeldTestTwo.jpg">
+                <hr>
+                <img class="display-image" onclick="openAllText();"
+                    src="images\WeldTestTwoJoint.jpg">
+                <img class="magnifying-glass show-all-text" id="weld-test-two-mg" onclick="openAllText();"
+                    src="images\MagnifyingText.png">
+            </div>
+
+        </div>
+        <div class="column">
+            <div class="description">
+                <h2>Weld Test One</h2>
+                <div class="show-text-container show-all-text">
+                    <div class="show-text-centered">
+                        <button class="show-text" onclick="openAllText();">
+                            <img class="show-text-mg" src="images\MagnifyingText.png">
+                            Show all text
+                        </button>
+                    </div>
+                </div>
+                <p class="description-text" id="weld-test-one-text">
+                    <u>Material Preparation:</u><br>
+                    &emsp;&#10146; Two steel pieces that would be welded together to make a T<br>
+                    &emsp;&#10146; Lines were drawn with 1" spacing so that there's space for 12 welds (6 on each side)
+                    <br><br>
+                    <u>Welding:</u><br>
+                    &emsp;&#10146; Tack welds were done on both ends such that the two pieces actually made a T-joint. <br>
+                    &emsp;&#10146; Welds were done on both sides in a loop-the-loop pattern so that they overlap
+                    <br><br>
+                    <u>Finish:</u><br>
+                    &emsp;&#10146; Cleaned welds up with wire brush
+                    <br><br>
+                    <i>Comments:</i> Weld Test Two, in my opinion was better than Weld Test One; I generally found it
+                    easier to aim into a corner than onto a flat plate.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>&copy2025 Zixiu Chen</p>
+    </div>
+</body>
+
+</html>

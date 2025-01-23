@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Keychain | TMJ3M</title>
+    <link rel="stylesheet" href="css\TechPortfolioStyle.css">
+    <script src="projectPages.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="TMJ3MProjectsMenu.html">TMJ3M</a>
+    </div>
+    <div class="navbar-line">
+        <hr />
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <img class="display-image" onclick="openAllText();"
+                    src="images\KeychainLifeBeforeDeath.jpg"
+                    alt="Keychain 'Life before death.' side Picture">
+                <img class="magnifying-glass show-all-text" id="keychain-mg" onclick="openAllText();"
+                    src="images\MagnifyingText.png">
+                <hr />
+                <img class="display-image" onclick="openAllText();"
+                    src="images\KeychainRoaharGlyph.jpg"
+                    alt="Keychain Roshar Glyph side Picture">
+                <hr />
+                <img class="display-image" src="images\KeychainRoaharGlyphDXF.jpg">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="description">
+                <h2>CNC Keychain</h2>
+                <div class="show-text-container show-all-text">
+                    <div class="show-text-centered">
+                        <button class="show-text" onclick="openAllText();">
+                            <img class="show-text-mg" src="images\MagnifyingText.png">
+                            Show all text
+                        </button>
+                    </div>
+                </div>
+                <p class="description-text" id="keychain-text">
+                    <u>Find image to trace.</u><br>
+                    &emsp;<i>Comments:</i> I chose the glyph that represents Roshar from The Stormlight Archive by
+                    Brandon Sanderson, I don't think I realized how square the glyph would be and it ended up taking
+                    very little space.
+                    <br><br>
+                    <u>Trace the image in fusion and expost to DXF.</u><br>
+                    &emsp;<i>Comments:</i> This was fun and very relaxing; I was lucky in that the image I chose was
+                    symmetric so I only ended up having to trace one half.
+                    <br><br>
+                    <u>Using a USB, import the DXF file onto a Tormach and turn it into a g-code file:</u><br>
+                    &emsp;<i>Comments:</i>
+                    <br><br>
+                    <u>Run the g-code into an already prepared keychain.</u><br>
+                    &emsp;&#10146; Keychain was cut from aluminum and the corners were rounded on the big CNC<br>
+                    &emsp;&#10146; The keychain's edges and sides were then sanded, the hole deburred<br>
+                    &emsp;<i>Comments:</i> I have many memories on sanding keychains&hellip;
+                    <br><br>
+                    <u>Zero out the CNC so that the image is centered on to the keychain.</u><br>
+                    <br><br>
+                    <u>Flip the keychain over and engrave text on that side.</u><br>
+                    &emsp;<i>Comments:</i> The text I engraved was <i>Life before death.</i> This is part of a longer
+                    quote from The Stormlight Archive, "Life before death. Strength before weakness. Journey before
+                    destination." These words are the first oath that knights radiants swear. This is also why I
+                    somewhat regret engraving Roshar (it's not even the planet I feel most attached to), when I could
+                    have engraved the glyphpair for <i>Life before death.</i>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>&copy2025 Zixiu Chen</p>
+    </div>
+</body>
+
+</html>

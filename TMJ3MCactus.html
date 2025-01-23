@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cactus | TMJ3M</title>
+    <link rel="stylesheet" href="css/TechPortfolioStyle.css">
+    <script src="projectPages.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="TMJ3MProjectsMenu.html">TMJ3M</a>
+    </div>
+    <div class="navbar-line">
+        <hr />
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <img class="display-image" onclick="reset();" src="images/Cactus.jpg" alt="Cactus Picture">
+                
+                <!-- cactus arm left -->
+                <img class="popup-image" id="cactus-arm-left" src="images/CactusArmLeft.jpg">
+                <img class="magnifying-glass" id="cactus-arm-left-mg"
+                    onclick="openPopupImg('cactus-arm-left'); resetText(); openText('cactus-arms-text');"
+                    src="images/MagnifyingGlass.svg">
+
+                <!-- cactus arm right -->
+                <img class="popup-image" id="cactus-arm-right" src="images/CactusArmRight.jpg">
+                <img class="magnifying-glass" id="cactus-arm-right-mg"
+                    onclick="openPopupImg('cactus-arm-right'); resetText(); openText('cactus-arms-text');"
+                    src="images/MagnifyingGlass.svg">
+
+                <!-- cactus base welds -->
+                <img class="popup-image" id="cactus-base" src="images/CactusBase.jpg">
+                <img class="magnifying-glass" id="cactus-base-mg"
+                    onclick="openPopupImg('cactus-base'); resetText(); openText('cactus-base-text'); openText('cactus-footnote');"
+                    src="images/MagnifyingGlass.svg">
+
+                <!-- cactus middle -->
+                <img class="popup-image" id="cactus-middle" src="images/CactusMiddle.jpg">
+                <img class="magnifying-glass" id="cactus-middle-mg"
+                    onclick="openPopupImg('cactus-middle'); resetText(); openText('cactus-stem-text');"
+                    src="images/MagnifyingGlass.svg">
+
+                <!-- Cactus base to stem welds -->
+                <img class="popup-image" id="cactus-base-stem" src="images/CactusBaseStem.jpg">
+                <img class="magnifying-glass" id="cactus-base-stem-mg"
+                    onclick="openPopupImg('cactus-base-stem'); resetText(); openText('cactus-base-stem-text');"
+                    src="images/MagnifyingGlass.svg">
+
+                <hr />
+
+                <!-- catus base cad drawing -->
+                <img class="display-image" onclick="reset();" src="images/CactusBaseDrawing.jpg" alt="Cactus Base CAD Drawing">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="description">
+                <h2>Cactus Project</h2>
+
+                <div class="show-text-container show-all-text">
+                    <div class="show-text-centered">
+                        <button class="show-text" onclick="openAllText();">
+                            <img class="show-text-mg" src="images/MagnifyingText.png">
+                            Show all text
+                        </button>
+                    </div>
+                </div>
+
+                <p class="description-text" id="cactus-base-text">
+                    <b>Cactus Base: Material Preparation</b> <br>
+                    &emsp; &#10146; &#8960; <sup>1</sup>&frasl;<sub>4</sub>" cut to 24" x1 <br>
+                    &emsp; &#10146; &#8960; <sup>1</sup>&frasl;<sub>4</sub>" cut to
+                    3<sup>3</sup>&frasl;<sub>4</sub>" x3<br>
+                    &emsp; &#10146; &#8960; <sup>1</sup>&frasl;<sub>8</sub>" cut to 10" x3 <br>
+                    <i>Comments:</i> Cutting some rods was fairly easy, and after cutting them
+                    the ends were filed down for safety. The 3 <sup>1</sup>&frasl;<sub>4</sub> cut to
+                    3<sup>3</sup>&frasl;<sub>4</sub>" were decided later after I realized that just the overlapping
+                    diamonds couldn't support a cactus stem.
+                    <br><br><br>
+                    <b>Cactus Base: Forming the Circle</b><br>
+                    &emsp;&#10146; The 24" steel rod was bent into a circle using a bender tool.<br>
+                    &emsp;&#10146; Tack weld the circle ends together.<br>
+                    &emsp;&#10146; Hammer the circle to be more circular.<br>
+                    <i>Comments:</i> I wasn't strong enough to hammer the base to be more circular; thank you Mr.
+                    Keller for helping out with that.
+                    <br><br><br>
+                    <b>Cactus Base: Making the Inside Design</b><br>
+                    &emsp;&#10146; Bend the &#8960; <sup>1</sup>&frasl;<sub>4</sub> twice at roughly 120&deg; at 3" from
+                    the ends.<br>
+                    &emsp;&#10146; Tack weld the ends to the circular base with the middles overlapping to form the
+                    Ghostblood* symbol.<br>
+                    &emsp;&#10146; After making sure the symbol looks good, apply finishing welds.<br>
+                    &emsp;&#10146; Add in the supports trying to make sure they all end in the middle.<br>
+                    <i>Comments:</i> The magnets were pretty useful for getting the material to stay in one place
+                    to tack weld them together. I was fortunate in that I didn't have to hammer any of the pieces off
+                    the base.
+                    <br>
+                </p>
+
+                <!-- Other description texts... -->
+
+                <p class="description-text" id="cactus-footnote">
+                    *Ghostbloods are an organization from the Cosmere by Brandon Sanderson, their leader is Thaidakar
+                    and their symbol is based on the Marewill flower and every member (supposedly) has it tattooed
+                    somewhere on their body.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy;2025 Zixiu Chen</p>
+    </div>
+</body>
+
+</html>
